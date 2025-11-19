@@ -12,7 +12,25 @@ const _layout = () => {
                     title: "Home",
                 }}
             />
-        </Tabs>
+            <Tabs.Screen
+                name="explore"
+                options={{
+                    title: "Paradoxe",
+                }}
+                />
+            <Tabs.Screen
+                name="profile"
+                options={{
+                    title: "TrendtVision",
+                }}
+                />
+            <Tabs.Screen
+                name="center"
+                options={{
+                        title: "Huni",
+                    }}
+                />
+            </Tabs>
     )
 }
 
